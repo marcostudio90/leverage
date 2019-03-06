@@ -1,14 +1,9 @@
 <?php
 
-function somma($a , $b)
-{
-	$sum = $a + $b;
-	echo $sum;
-	
-}
+require_once('library.php');
 
-$sum = "ciao";
+echo sum(3,2);
 
-echo $sum;
+require_once 'library.php';
 
-echo somma(3,4);
+echo product(4,3);
