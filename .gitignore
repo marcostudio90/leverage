@@ -2,3 +2,5 @@
 .project
 .idea
 /vendor
+/logs
+/log
